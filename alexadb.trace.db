@@ -1,0 +1,18 @@
+2023-08-25 15:27:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REVIEW" not found (this database is empty); SQL statement:
+select * from review [42104-214]
+2023-08-25 15:30:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REVIEW" not found (this database is empty); SQL statement:
+select * from review [42104-214]
+2023-08-25 16:07:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "REVIEW CHARACTER VARYING(255)": "U&'I\\2019m new to Alexa and so far I\\2019m pretty impressed.   One thing I am su... (258)"; SQL statement:
+insert into review (author,product_name,rating,review,review_source,reviewed_date,title,id) values (?,?,?,?,?,?,?,?) [22001-214]
+2023-08-25 16:30:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "REVIEW CHARACTER VARYING(255)": "U&'I\\2019m new to Alexa and so far I\\2019m pretty impressed.   One thing I am su... (258)"; SQL statement:
+insert into review (author,product_name,rating,review,review_source,reviewed_date,title,id) values (?,?,?,?,?,?,?,?) [22001-214]
+2023-08-25 16:32:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "REVIEW CHARACTER VARYING(255)": "U&'This latest update now allows scenes to be turned OFF not just ON which is a ... (418)"; SQL statement:
+insert into review (author,product_name,rating,review,review_source,reviewed_date,title,id) values (?,?,?,?,?,?,?,?) [22001-214]
+2023-08-25 16:41:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "REVIEW CHARACTER VARYING(255)": "U&'I\\2019m new to Alexa and so far I\\2019m pretty impressed.   One thing I am su... (258)"; SQL statement:
+insert into review (author,product_name,rating,review,review_source,reviewed_date,title,id) values (?,?,?,?,?,?,?,?) [22001-214]
